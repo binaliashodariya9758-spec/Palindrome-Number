@@ -3,13 +3,13 @@ using namespace std;
 
 int main()
 {
-    int n,rem,rev,n1;
+    int n,rem,rev=0,n1;
 
     cout<<"Enter n: ";
     cin>>n;
 
     n1=n;
-    while(n>0)
+    while(n!=0)
     {
         rem=n%10;
         rev=rev*10+rem;
@@ -26,4 +26,5 @@ int main()
     }
     return 0;
     
+
 }
